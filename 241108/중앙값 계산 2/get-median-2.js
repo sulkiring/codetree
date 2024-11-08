@@ -8,7 +8,8 @@ let result = [];
 
 for (let i=0; i<n; i++) {
     if (i%2===0) {
-        result.push(nums[Math.floor(i/2)]);
+        arr = nums.sort()
+        result.push(arr[Math.floor(i/2)]);
     }
 }
 
